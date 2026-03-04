@@ -1,0 +1,109 @@
+/* Seletor universal: aplica-se a todos os elementos HTML */
+* {
+    margin: 0;                     /* Remove margens padrão */
+    padding: 0;                    /* Remove preenchimentos padrão */
+    box-sizing: border-box;        /* Largura/altura incluem a borda */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cor de fundo do site */
+body {
+    background-color: #ffffff;
+}
+/* Barra de navegação */
+.bng-navbar {
+    background-color: #343a40;
+    display: flex;                 /* Alinha os elementos em linha */
+    align-items: center;           /* Centraliza verticalmente */
+    justify-content: space-between;/* Distribui os itens igualmente */
+    padding: 10px 20px;            /* Espaçamento interno */
+}
+
+.bng-navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.bng-navbar img {
+    height: 50px;                  /* Altura do logo */
+    margin-right: 10px;            /* Espaço entre o logo e o texto */
+}
+
+.bng-navbar h3 {
+    font-size: 1.5em;
+    color: #dddddd;
+}
+
+/* Links centrais da navegação */
+.container-navegacao {
+    text-align: center;
+    padding: 20px;
+}
+
+.container-navegacao a {
+    font-size: 1.5em;
+    margin: 0px 50px;              /* Espaço horizontal entre links */
+    text-decoration: none;         /* Remove sublinhado */
+    color: #dddddd;
+}
+
+.container-navegacao a:hover {
+    color: #ffffff;                /* Cor ao passar o rato */
+}
+
+/* Botão da Área Cliente */
+.nav-cliente a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;   /* Efeito suave na transição */
+}
+
+.nav-cliente a:hover {
+    background-color: #0056b3;     /* Cor de fundo ao passar o rato */
+}
+
+/* Rodapé */
+.footer-container {
+    display: flex;                 /* Layout flexível */
+    background-color: #343a40;
+    color: white;
+    padding: 40px 20px;
+    flex-wrap: wrap;               /* Responsivo */
+}
+
+.footer-section {
+    flex: 1;                       /* Secções com tamanho igual */
+    min-width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-section strong {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #f8f9fa;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    color: #d6d6d6;
+}
+
+/* Texto genérico (Quem Somos) */
+.container-texto-generico {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Limita a largura de cada bloco de texto */
+.container-texto-generico article {
+    max-width: 300px;
+}
