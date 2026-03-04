@@ -36,7 +36,7 @@ text-align: center; padding: 20px; /* Centraliza os links */
 /* Adiciona espaçamento interno */
 }
 .container-navegacao a {
-font-size: 1.5em; margin: 0px 50px; text-decoration: none; color: #dddddd; /* Aumenta o tamanho da fonte dos links */
+font-size: 1.5em; margin: 0px 30px; text-decoration: none; color: #dddddd; /* Aumenta o tamanho da fonte dos links */
 /* Espaçamento horizontal entre os links */
 /* Remove o sublinhado */
 /* Define a cor dos links */
